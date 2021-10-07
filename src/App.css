@@ -1,0 +1,50 @@
+/* * {
+  align-items: center;
+} */
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  width: 500px;
+  justify-content: space-evenly;
+}
+
+ul.nav {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.registrationForm {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registrationForm button {
+  width: 200px;
+  flex-direction: row;
+}
+
+header {
+  text-decoration: none;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.nav-active {
+  color: blue;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
